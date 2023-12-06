@@ -1,0 +1,193 @@
+/* Google font imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+/* Content styles*/
+
+body {
+  background-color: #142b57;
+  margin: auto;
+}
+
+h1 {
+  margin-left: 0px;
+  font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+        color: #000000;
+}
+
+p {
+  margin-left: 0px;
+  font-family: 'Lato', sans-serif;
+    font-size: 14px;
+  line-height: 2;
+}
+
+  
+blockquote {
+  margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+    font-size: 14px;
+     line-height: 1.5;
+  color: #F2F2F2;
+}
+
+a:link {
+  color: #59331D;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #D98555;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #45230e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #45230e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* icon size container */
+
+.icon-container {
+width:40px;
+height:20px;
+}
+.icon-container .auto{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Add color to the top navigation */
+
+.topnav {
+    display: flex;
+  overflow: hidden;
+      align-items: center;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+  display: flex;
+  justify-content: space-between;
+  color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #082B59;
+}
+
+/* buttons */
+
+.button {
+  background-color: #59331D;
+  color: white;
+  margin-left: 0px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+
+.button:hover {
+  background-color: #D98555 ;
+  color: white;
+}
+
+/* Main content flex box */
+
+.flexcontainer{
+  display: flex;
+  width: 1000px;
+  height: 1000px;
+  padding: 0px;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  margin: auto;
+ }
+
+.child1{
+    width: 600px;
+    height: 600px;
+
+}
+.child2{
+    width: 200px;
+    height: 425px;
+  padding: 00px;
+   border-radius: 10px;
+  overflow: hidden;
+  background-color: #59331D ;
+   margin-left: 20px;
+
+}
+
+.container img {
+    width: 200px;
+  
+}
+
+/* Content container styles */
+
+.header {
+  height: 150px;
+  border-bottom: 10px solid #cd885f;
+  margin: 0px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background: #142b57;
+  color: white;
+
+}
+
+.content {
+  height:500px;
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  text-align: left;
+   background: #F2F2F2;
+  color: #000000;
+  
+  
+}
+
+.footer {
+  border-top: 10px solid #cd885f;
+  padding: 0px;
+  margin-top: 0px;
+  text-align: center;
+  background: #142b57;
+  color: #F2F2F2;
+  
+}
